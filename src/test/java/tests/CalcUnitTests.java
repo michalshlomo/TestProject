@@ -8,11 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import inputParams.CalcInputParams;
 import services.CalcService;
 
 @ExtendWith(SpringExtension.class)
-@SpringBootTest(classes = {CalcService.class, CalcInputParams.class})
+@SpringBootTest(classes = {CalcService.class})
 public class CalcUnitTests {
 
 	@Autowired

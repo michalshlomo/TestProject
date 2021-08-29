@@ -9,8 +9,4 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Cachable {
 
-	String key() default "";
-	
-	String value() default "";
-
 }
